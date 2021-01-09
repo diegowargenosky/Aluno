@@ -10,17 +10,17 @@ public class Teste {
 		Aluno aluno = new Aluno();
 
 		System.out.println("Entre com o nome do aluno: ");
-		aluno.nomeAluno = sc.next();
+		aluno.nomeAluno = sc.nextLine();
 
 		System.out.println("Entre com o nome do curso: ");
-		aluno.curso = sc.next();
+		aluno.curso = sc.nextLine();
 
 		System.out.println("Entre com a matrícula: ");
-		aluno.matricula = sc.next();
+		aluno.matricula = sc.nextLine();
 
 		for (int i = 0; i < aluno.nomeDisciplinas.length; i++) {
 			System.out.println("Entre com o nome da disciplina " + (i + 1));
-			aluno.nomeDisciplinas[i] = sc.next();
+			aluno.nomeDisciplinas[i] = sc.nextLine();
 
 		}
 
