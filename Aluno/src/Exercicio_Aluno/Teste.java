@@ -15,7 +15,7 @@ public class Teste {
 		System.out.println("Entre com o nome do curso: ");
 		aluno.curso = sc.next();
 
-		System.out.println("Entre com a matrícula: ");
+		System.out.println("Entre com a matrÃ­cula: ");
 		aluno.matricula = sc.next();
 
 		for (int i = 0; i < aluno.nomeDisciplinas.length; i++) {
@@ -47,7 +47,7 @@ public class Teste {
 		}
 		
 		
-
+               sc.close();
 	}
 
 }
